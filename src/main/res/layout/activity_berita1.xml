@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="274dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gb"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="348dp"
+        android:layout_height="334dp"
+        android:layout_marginTop="10dp"
+        android:text='Ratna ditangkap oleh polisi pada Kamis malam (4/10/2018) di Bandara Soekarno-Hatta. Kabarnya ibunda dari Atiqah Hasiholan ini akan terbang menuju Cile untuk menghadiri Kongres Wanita. Penangkapan Ratna dibenarkan oleh Kabid Humas Polda Metro Jaya Kombes Argo Yuwono. "Iya, (Ratna Sarumpaet) sudah (ditangkap), nanti silakan ke (direktorat) krimum," ujar Argo ketika dihubungi, Kamis (4/10/2018). Dilansir tim TribunStyle melalui Kompas.com pada Jumat (5/10/2018) Ratna terancam pidana penjara maksimal 10 tahun. Ratna ditangkap terkait kasus berita hoaks soal penganiayaan dirinya "Jadi alasan penangkapan yang pertama adalah laporan polisi tanggal 2 Oktober 2018 kemarin, kami kenakan Pasal 14 Undang-Undang Nomor 1 Tahun 1946 tentang Peraturan Pidana Hukum dan Undang-Undang ITE Pasal 28 juncto Pasal 45 dengan ancaman 10 tahun," ujar Argo. '
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="18dp" />
+</android.support.constraint.ConstraintLayout>
